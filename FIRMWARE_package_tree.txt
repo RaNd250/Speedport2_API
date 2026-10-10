@@ -1,0 +1,399 @@
+=== DTB @988 total=9595 ver=17 struct=9360B@56 strings=179B@9416
+/
+  timestamp = <68da725d>
+  description = "Simple image with ATF and optional OP-TEE support"
+  #address-cells = <00000001>
+  ident_1 = "@(#) $imageversion: 5042p1GWV_SERCOMM_VD4224B2661858 $"
+  ident_2 = "@(#) $imageversion: 5042p1GWV_SERCOMM_VD4224B2661858 $"
+  ident_3 = "@(#) $imgversion: 5.04L.02p1 $"
+  ident_4 = "@(#) $imgversion: 5.04L.02p1 $"
+  brcm_sec_hashes/
+    rootfs/
+      description = "rootfs"
+      size = <03abc000>
+      hash-1/
+        value = <1b6743c08c87a87dae5241941385556763fbb6c2cf9a732a16303fd67ab0aaa0>
+        algo = "sha256"
+  images/
+    atf/
+      data-size = <00004010>
+      data-position = <00002a79>
+      description = "ATF"
+      type = "firmware"
+      arch = "arm"
+      os = "arm-trusted-firmware"
+      compression = "none"
+      load = <00004000>
+      entry = <00004000>
+      hash-1/
+        value = <de55000bdc3b80b140df148901de9fba1f51f55208ec0209bfff4f7210053b38>
+        algo = "sha256"
+    uboot/
+      data-size = <000c5f34>
+      data-position = <00006a89>
+      description = "U-Boot"
+      os = "U-Boot"
+      arch = "arm"
+      compression = "none"
+      load = <01000000>
+      entry = <01000000>
+      hash-1/
+        value = <f4e7840182a5321ca426e7d55934cd5e83d0cafdb8e79bee69aef0894289ad12>
+        algo = "sha256"
+    fdt_uboot/
+      data-size = <00001289>
+      data-position = <000cc9bd>
+      description = "dtb"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <a8e2b291ed5c56b8be91b54620ab891c0d91b3a4e4d90c99523ab97b824c04d4>
+        algo = "sha256"
+    kernel/
+      data-size = <00619687>
+      data-position = <000cdc49>
+      description = "4.19 kernel"
+      type = "kernel"
+      os = "linux"
+      arch = "arm"
+      compression = "lzo"
+      load = <00108000>
+      entry = <00108000>
+      hash-1/
+        value = <90b2fe6bad224fe136987a28971a24f0cd1df664b6dbe7dd27999ddfbe2029be>
+        algo = "sha256"
+    fdt_63178REF1_RGM/
+      data-size = <0000e6d4>
+      data-position = <006e72d1>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <057b4f5e0a7bb648749e88ac07a7862122461382b414157620949734ce268258>
+        algo = "sha256"
+    fdt_963178/
+      data-size = <0000dd13>
+      data-position = <006f59a5>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <da2c53fdd51ba4df27b96da68f41832a542953698187f5b5a35a4b3b36e1179e>
+        algo = "sha256"
+    fdt_963178REF1/
+      data-size = <0000e642>
+      data-position = <007036b9>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <384b47807b821c7be0302a3d86dc04f670e372b402f1cff3d4d2c25b86bfeb1e>
+        algo = "sha256"
+    fdt_963178REF1_EPA/
+      data-size = <0000e202>
+      data-position = <00711cfd>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <66e109121d6c1bccad49a4ccdb44d5ff1bf49822f794cd6b201e2d40c399cc2c>
+        algo = "sha256"
+    fdt_963178REF2/
+      data-size = <0000e563>
+      data-position = <0071ff01>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <525c86cc4212d428a56b5cbb34aff222247f1846ade628dace1e26cac3ae519b>
+        algo = "sha256"
+    fdt_963178REF2_P200/
+      data-size = <0000e531>
+      data-position = <0072e465>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <5b13823e739a2bdbf56ac29bcae6e2586403844b9e3ce872f1e911803df18579>
+        algo = "sha256"
+    fdt_963178REF2_P300/
+      data-size = <0000e4d2>
+      data-position = <0073c999>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <45c01ba434cce65b75ef863994a6ee86df0816bd686c28712b97ce4651175060>
+        algo = "sha256"
+    fdt_963178REF3/
+      data-size = <0000e30a>
+      data-position = <0074ae6d>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <9d322cb9e465ada1b0a735203acef57c3f1597399c1d53705151833d0f28b002>
+        algo = "sha256"
+    fdt_963178REF5/
+      data-size = <0000e36e>
+      data-position = <00759179>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <704b6448d3fa0034143305fbf0348e2df6bfa0f7bfe09371820b7b85b409e824>
+        algo = "sha256"
+    fdt_963178REF6/
+      data-size = <0000e46e>
+      data-position = <007674e9>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <5ae42361b9d73c507d7de30ad4663b52efbd147c9c2bbd3e0fb6a2ccd8f48626>
+        algo = "sha256"
+    fdt_963178RFDVT/
+      data-size = <0000e100>
+      data-position = <00775959>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <09bfbafa9232dc7545a8c854a85822484200e26807a76bd3120badb3aaa4d33b>
+        algo = "sha256"
+    fdt_963178SV/
+      data-size = <0000e583>
+      data-position = <00783a59>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <ef4dfc1216975dfaca3ea7253cd2201fa9c04ca282787276e63cee6a9c99f67b>
+        algo = "sha256"
+    fdt_963178SV_P200/
+      data-size = <0000e236>
+      data-position = <00791fdd>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <3e73d5cce0d7823199d82a544f28922af4cbcbf9134879b272e9bd6665569afb>
+        algo = "sha256"
+    fdt_96750REF1/
+      data-size = <0000e1bf>
+      data-position = <007a0215>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <9f998ed985c83b0d6ed706906f17e812ef75ef4afb653d2ab503569f3aeb8010>
+        algo = "sha256"
+    fdt_96750REF4/
+      data-size = <0000e04c>
+      data-position = <007ae3d5>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <5a200b904a173a2adfcf25a9414ac077315c67d54b5d2fc1a5883ceeb5d872b5>
+        algo = "sha256"
+    fdt_96752REF1/
+      data-size = <0000e0cd>
+      data-position = <007bc421>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <886b638ad972886624fc7828b0ce315993b0a70291c0f14437d532e9456de9cb>
+        algo = "sha256"
+    fdt_VD4224BDTI/
+      data-size = <0000e6a7>
+      data-position = <007ca4f1>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <8ce777733ecd9dcfadf388498fee32822d0145e956c7aac773d01c5a49b26c6e>
+        algo = "sha256"
+    fdt_VD4224BDTP/
+      data-size = <0000e6a7>
+      data-position = <007d8b99>
+      description = "dtb"
+      arch = "arm"
+      type = "flat_dt"
+      compression = "none"
+      hash-1/
+        value = <8ce777733ecd9dcfadf388498fee32822d0145e956c7aac773d01c5a49b26c6e>
+        algo = "sha256"
+  configurations/
+    default = "conf_uboot"
+    conf_uboot/
+      description = "BRCM 63xxx with uboot"
+      fdt = "fdt_uboot"
+      loadables = <6174660075626f6f7400>
+    conf_linux/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178"
+    conf_lx_63178REF1_RGM/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_63178REF1_RGM"
+    conf_ub_63178REF1_RGM/
+      description = "63178REF1_RGM"
+      fdt = "fdt_63178REF1_RGM"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178"
+    conf_ub_963178/
+      description = "963178"
+      fdt = "fdt_963178"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF1/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF1"
+    conf_ub_963178REF1/
+      description = "963178REF1"
+      fdt = "fdt_963178REF1"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF1_EPA/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF1_EPA"
+    conf_ub_963178REF1_EPA/
+      description = "963178REF1_EPA"
+      fdt = "fdt_963178REF1_EPA"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF2/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF2"
+    conf_ub_963178REF2/
+      description = "963178REF2"
+      fdt = "fdt_963178REF2"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF2_P200/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF2_P200"
+    conf_ub_963178REF2_P200/
+      description = "963178REF2_P200"
+      fdt = "fdt_963178REF2_P200"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF2_P300/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF2_P300"
+    conf_ub_963178REF2_P300/
+      description = "963178REF2_P300"
+      fdt = "fdt_963178REF2_P300"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF3/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF3"
+    conf_ub_963178REF3/
+      description = "963178REF3"
+      fdt = "fdt_963178REF3"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF5/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF5"
+    conf_ub_963178REF5/
+      description = "963178REF5"
+      fdt = "fdt_963178REF5"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178REF6/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178REF6"
+    conf_ub_963178REF6/
+      description = "963178REF6"
+      fdt = "fdt_963178REF6"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178RFDVT/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178RFDVT"
+    conf_ub_963178RFDVT/
+      description = "963178RFDVT"
+      fdt = "fdt_963178RFDVT"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178SV/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178SV"
+    conf_ub_963178SV/
+      description = "963178SV"
+      fdt = "fdt_963178SV"
+      loadables = <6174660075626f6f7400>
+    conf_lx_963178SV_P200/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_963178SV_P200"
+    conf_ub_963178SV_P200/
+      description = "963178SV_P200"
+      fdt = "fdt_963178SV_P200"
+      loadables = <6174660075626f6f7400>
+    conf_lx_96750REF1/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_96750REF1"
+    conf_ub_96750REF1/
+      description = "96750REF1"
+      fdt = "fdt_96750REF1"
+      loadables = <6174660075626f6f7400>
+    conf_lx_96750REF4/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_96750REF4"
+    conf_ub_96750REF4/
+      description = "96750REF4"
+      fdt = "fdt_96750REF4"
+      loadables = <6174660075626f6f7400>
+    conf_lx_96752REF1/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_96752REF1"
+    conf_ub_96752REF1/
+      description = "96752REF1"
+      fdt = "fdt_96752REF1"
+      loadables = <6174660075626f6f7400>
+    conf_lx_VD4224BDTI/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_VD4224BDTI"
+    conf_ub_VD4224BDTI/
+      description = "VD4224BDTI"
+      fdt = "fdt_VD4224BDTI"
+      loadables = <6174660075626f6f7400>
+    conf_lx_VD4224BDTP/
+      description = "BRCM 63xxx linux"
+      kernel = "kernel"
+      fdt = "fdt_VD4224BDTP"
+    conf_ub_VD4224BDTP/
+      description = "VD4224BDTP"
+      fdt = "fdt_VD4224BDTP"
+      loadables = <6174660075626f6f7400>
+

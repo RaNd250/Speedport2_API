@@ -1,0 +1,15 @@
+Device.DeviceInfo.ProductClass
+Device.DeviceInfo.SoftwareVersion
+Device.DeviceInfo.HardwareVersion
+Device.DeviceInfo.SerialNumber
+Device.DeviceInfo.UpTime
+Device.DeviceInfo.X_RDKCENTRAL-COM_LastRebootReason
+Device.Time.CurrentLocalTime
+Device.IP.Interface.1.IPv4Address.1.IPAddress
+Device.Ethernet.Interface.1.Status
+Device.WiFi.SSID.1.SSID
+Device.WiFi.SSID.2.SSID
+Device.WiFi.SSID.1.BSSID
+Device.WiFi.AccessPoint.1.AssociatedDeviceNumberOfEntries
+Device.WiFi.AccessPoint.2.AssociatedDeviceNumberOfEntries
+Device.DHCPv4.Server.Pool.1.LeaseTime

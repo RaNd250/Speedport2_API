@@ -1,0 +1,5 @@
+*.pkgtb
+*.sqsh
+rootfs.sqsh
+imgdata/
+ex/
